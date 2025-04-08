@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jost", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.spaceBetween {
+    justify-content: space-between;
+}
+
+.alignCenter {
+    align-items: center;
+}
+
+.container {
+    max-width:1000px;
+    margin: auto;
+}
+
+/* HEADER */
+.logo {
+    width: 200px;
+}
+
+.menu {
+    width: 30%;
+}
+
+header {
+    margin-top: 20px;
+}
+
+/* SECTION HERO */
+.hero {
+    background-image: url("asset/Banner.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 0 0 0 200px;
+
+}
+
+h1,h2,h3{
+    font-family: "DM Serif Display", serif;
+    
+}
